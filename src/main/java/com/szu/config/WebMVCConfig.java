@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class WebMVCConfig implements WebMvcConfigurer {
-
+    //注释
     @Autowired
     private LoginProtectedInterceptor loginProtectedInterceptor;
 
